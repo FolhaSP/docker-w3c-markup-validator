@@ -14,3 +14,11 @@ docker build --rm -t ninetails/docker-validator . < Dockerfile
 ```
 docker run --rm -p 8888:8888 -it ninetails/docker-validator
 ```
+
+## How to update validator release
+
+Change version on `Dockerfile` on
+
+```
+ENV VALIDATOR_RELEASE_VERSION <new version>
+```
