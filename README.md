@@ -1,4 +1,4 @@
-# [Docker Image](https://hub.docker.com/r/folha/docker-w3c-markup-validator/) of [W3C Markup Validator](https://github.com/validator/validator)
+# [Docker Image](https://hub.docker.com/r/folha/w3c-markup-validator/) of [W3C Markup Validator](https://github.com/validator/validator)
 
 Docker container with W3C Markup Validator based on `debian:jessie`
 
