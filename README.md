@@ -1,4 +1,4 @@
-# Docker Image of W3C Markup Validator
+# [Docker Image](https://hub.docker.com/r/folha/docker-w3c-markup-validator/) of [W3C Markup Validator](https://github.com/validator/validator)
 
 Docker container with W3C Markup Validator based on `debian:jessie`
 
@@ -13,7 +13,7 @@ docker run --rm -p 8888:8888 -it ninetails/markup-validator
 ### Using [with DNS](https://docs.docker.com/engine/userguide/networking/configure-dns/)
 
 ```
-docker run --dns=127.0.0.5 --rm -p 8888:8888 -it ninetails/markup-validator
+docker run --dns=127.0.0.5 --dns=127.0.0.6 --rm -p 8888:8888 -it ninetails/markup-validator
 ```
 
 ## How to update validator release
