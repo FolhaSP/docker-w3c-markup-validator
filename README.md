@@ -1,4 +1,4 @@
-# Docker W3C Validator
+# Docker Image of W3C Markup Validator
 
 Docker container with W3C Markup Validator based on `debian:jessie`
 
