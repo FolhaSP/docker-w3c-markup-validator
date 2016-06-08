@@ -15,11 +15,3 @@ docker run --rm -p 8888:8888 -it folha/w3c-markup-validator
 ```
 docker run --dns=127.0.0.5 --dns=127.0.0.6 --rm -p 8888:8888 -it folha/w3c-markup-validator
 ```
-
-## How to update validator release
-
-Change version on `Dockerfile` on
-
-```
-ENV VALIDATOR_RELEASE_VERSION <new version>
-```
