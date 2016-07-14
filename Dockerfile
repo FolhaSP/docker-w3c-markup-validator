@@ -5,6 +5,7 @@ RUN echo "deb http://ftp.de.debian.org/debian jessie-backports main" >> /etc/apt
     apt-get update && \
     apt-get install -y openjdk-8-jre-headless wget
 
+# Supported by mantainer: https://github.com/validator/validator/issues/304
 RUN wget https://sideshowbarker.net/releases/jar/vnu.jar && java -jar vnu.jar --help
 
 RUN apt-get -y autoclean  \
